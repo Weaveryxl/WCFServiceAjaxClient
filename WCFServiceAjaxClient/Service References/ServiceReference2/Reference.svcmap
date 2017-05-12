@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="334ef40a-1f7c-483c-8b03-ec1be4fae804" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:62813/WCFAjaxService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="WCFAjaxService.xsd" MetadataType="Schema" ID="e6dfabc3-0506-48b8-b714-096980221ab2" SourceId="1" SourceUrl="http://localhost:62813/WCFAjaxService.svc?xsd=xsd2" />
+    <MetadataFile FileName="WCFAjaxService.disco" MetadataType="Disco" ID="c16fcfd3-e139-45a4-ba9e-c70db55f5f87" SourceId="1" SourceUrl="http://localhost:62813/WCFAjaxService.svc?disco" />
+    <MetadataFile FileName="WCFAjaxService1.xsd" MetadataType="Schema" ID="9211961b-d7d8-4f18-a767-d37061756a9e" SourceId="1" SourceUrl="http://localhost:62813/WCFAjaxService.svc?xsd=xsd1" />
+    <MetadataFile FileName="WCFAjaxService.wsdl" MetadataType="Wsdl" ID="c8706662-5baa-4037-be6b-e92c54ebba70" SourceId="1" SourceUrl="http://localhost:62813/WCFAjaxService.svc?wsdl" />
+    <MetadataFile FileName="WCFAjaxService2.xsd" MetadataType="Schema" ID="2fa76e65-5f15-47e9-ba08-09d71c8a64c5" SourceId="1" SourceUrl="http://localhost:62813/WCFAjaxService.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
